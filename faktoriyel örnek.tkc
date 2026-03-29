@@ -1,0 +1,11 @@
+// Şafak IDE — Türkçe programlama dili
+// Merhaba Dünya örneği
+islev faktoriyel(ts n) {
+    eger (n <= 1) {
+        dondur 1
+    }
+    dondur n * faktoriyel(n - 1)
+}
+
+ts sonuc = faktoriyel(5)
+yazdir sonuc
