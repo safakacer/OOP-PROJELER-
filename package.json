@@ -1,0 +1,13 @@
+{
+  "name": "safak-ide",
+  "version": "1.0.0",
+  "description": "SAFAK IDE - Türkçe Programlama Dili",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^34.0.0",
+    "monaco-editor": "^0.52.0"
+  }
+}
